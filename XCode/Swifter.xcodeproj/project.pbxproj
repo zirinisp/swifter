@@ -78,6 +78,12 @@
 		7C0A46BB1CAC6806009124AB /* String+SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0A46761CAC6806009124AB /* String+SHA1.swift */; };
 		7C13B57C1C7B069500556443 /* SwifterTestsSQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C13B57B1C7B069500556443 /* SwifterTestsSQLite.swift */; };
 		7C13B57D1C7B069500556443 /* SwifterTestsSQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C13B57B1C7B069500556443 /* SwifterTestsSQLite.swift */; };
+		7C1F96B91CAEE635009D60EC /* OSXAsyncServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F96B81CAEE635009D60EC /* OSXAsyncServerSocket.swift */; };
+		7C1F96BA1CAEE635009D60EC /* OSXAsyncServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F96B81CAEE635009D60EC /* OSXAsyncServerSocket.swift */; };
+		7C1F96BB1CAEE635009D60EC /* OSXAsyncServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F96B81CAEE635009D60EC /* OSXAsyncServerSocket.swift */; };
+		7C1F96BC1CAEE642009D60EC /* AsyncServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F96B61CAEE5D3009D60EC /* AsyncServerSocket.swift */; };
+		7C1F96BD1CAEE642009D60EC /* AsyncServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F96B61CAEE5D3009D60EC /* AsyncServerSocket.swift */; };
+		7C1F96BE1CAEE643009D60EC /* AsyncServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F96B61CAEE5D3009D60EC /* AsyncServerSocket.swift */; };
 		7C4785E91C71D15600A9FE73 /* SwifterTestsWebSocketSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4785E81C71D15600A9FE73 /* SwifterTestsWebSocketSession.swift */; };
 		7C4785EA1C71D15600A9FE73 /* SwifterTestsWebSocketSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4785E81C71D15600A9FE73 /* SwifterTestsWebSocketSession.swift */; };
 		7C5915221C92A99300D884BC /* SwifterTestsReflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5915211C92A99300D884BC /* SwifterTestsReflection.swift */; };
@@ -199,6 +205,8 @@
 		7C0A46751CAC6806009124AB /* String+Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Misc.swift"; sourceTree = "<group>"; };
 		7C0A46761CAC6806009124AB /* String+SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SHA1.swift"; sourceTree = "<group>"; };
 		7C13B57B1C7B069500556443 /* SwifterTestsSQLite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterTestsSQLite.swift; sourceTree = "<group>"; };
+		7C1F96B61CAEE5D3009D60EC /* AsyncServerSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncServerSocket.swift; sourceTree = "<group>"; };
+		7C1F96B81CAEE635009D60EC /* OSXAsyncServerSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSXAsyncServerSocket.swift; sourceTree = "<group>"; };
 		7C4785E81C71D15600A9FE73 /* SwifterTestsWebSocketSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterTestsWebSocketSession.swift; sourceTree = "<group>"; };
 		7C5915211C92A99300D884BC /* SwifterTestsReflection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterTestsReflection.swift; sourceTree = "<group>"; };
 		7C6B57EA1CA6C3AA0042655C /* SwifterTestsHttpRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterTestsHttpRouter.swift; sourceTree = "<group>"; };
@@ -326,6 +334,8 @@
 				7C0A46681CAC6806009124AB /* HttpResponse.swift */,
 				7C0A46691CAC6806009124AB /* HttpRouter.swift */,
 				7C0A466A1CAC6806009124AB /* HttpServer.swift */,
+				7C1F96B61CAEE5D3009D60EC /* AsyncServerSocket.swift */,
+				7C1F96B81CAEE635009D60EC /* OSXAsyncServerSocket.swift */,
 				7C0A466B1CAC6806009124AB /* HttpServerIO.swift */,
 				7C0A466D1CAC6806009124AB /* Process.swift */,
 				7C0A466E1CAC6806009124AB /* Reflection.swift */,
@@ -773,6 +783,7 @@
 				7C0A467D1CAC6806009124AB /* File.swift in Sources */,
 				7C0A46921CAC6806009124AB /* HttpRouter.swift in Sources */,
 				7C0A46861CAC6806009124AB /* HttpHandlers.swift in Sources */,
+				7C1F96B91CAEE635009D60EC /* OSXAsyncServerSocket.swift in Sources */,
 				7C0A46831CAC6806009124AB /* HttpHandlers+WebSockets.swift in Sources */,
 				7C0A46AA1CAC6806009124AB /* sqlite.c in Sources */,
 				7C0A46B61CAC6806009124AB /* String+Misc.swift in Sources */,
@@ -785,6 +796,7 @@
 				7C0A46801CAC6806009124AB /* HttpHandlers+Files.swift in Sources */,
 				7C0A467A1CAC6806009124AB /* DemoServer.swift in Sources */,
 				7C0A46B91CAC6806009124AB /* String+SHA1.swift in Sources */,
+				7C1F96BC1CAEE642009D60EC /* AsyncServerSocket.swift in Sources */,
 				7C0A469E1CAC6806009124AB /* Process.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -800,6 +812,7 @@
 				7C0A467E1CAC6806009124AB /* File.swift in Sources */,
 				7C0A46931CAC6806009124AB /* HttpRouter.swift in Sources */,
 				7C0A46871CAC6806009124AB /* HttpHandlers.swift in Sources */,
+				7C1F96BA1CAEE635009D60EC /* OSXAsyncServerSocket.swift in Sources */,
 				7C0A46841CAC6806009124AB /* HttpHandlers+WebSockets.swift in Sources */,
 				7C0A46AB1CAC6806009124AB /* sqlite.c in Sources */,
 				7C0A46B71CAC6806009124AB /* String+Misc.swift in Sources */,
@@ -812,6 +825,7 @@
 				7C0A46811CAC6806009124AB /* HttpHandlers+Files.swift in Sources */,
 				7C0A467B1CAC6806009124AB /* DemoServer.swift in Sources */,
 				7C0A46BA1CAC6806009124AB /* String+SHA1.swift in Sources */,
+				7C1F96BD1CAEE642009D60EC /* AsyncServerSocket.swift in Sources */,
 				7C0A469F1CAC6806009124AB /* Process.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -853,6 +867,7 @@
 				7C0A467F1CAC6806009124AB /* File.swift in Sources */,
 				7C0A46941CAC6806009124AB /* HttpRouter.swift in Sources */,
 				7C0A46881CAC6806009124AB /* HttpHandlers.swift in Sources */,
+				7C1F96BB1CAEE635009D60EC /* OSXAsyncServerSocket.swift in Sources */,
 				7C0A46851CAC6806009124AB /* HttpHandlers+WebSockets.swift in Sources */,
 				7C0A46AC1CAC6806009124AB /* sqlite.c in Sources */,
 				7C0A46B81CAC6806009124AB /* String+Misc.swift in Sources */,
@@ -865,6 +880,7 @@
 				7C0A46821CAC6806009124AB /* HttpHandlers+Files.swift in Sources */,
 				7C0A467C1CAC6806009124AB /* DemoServer.swift in Sources */,
 				7C0A46BB1CAC6806009124AB /* String+SHA1.swift in Sources */,
+				7C1F96BE1CAEE643009D60EC /* AsyncServerSocket.swift in Sources */,
 				7C0A46A01CAC6806009124AB /* Process.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
